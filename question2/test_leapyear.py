@@ -8,5 +8,5 @@ class test_leapYear(unittest.TestCase):
   def testDiv4Except(self):
     self.assertFalse(leapYear('2100'))
 
-  def testDiv100(self):
+  def testDiv400(self):
     self.assertTrue(leapYear('2000'))

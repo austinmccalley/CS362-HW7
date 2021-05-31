@@ -1,10 +1,12 @@
 def fizzBuzz(i):
     i = int(i)
     if i % 3 == 0:
-        return ('Fizz')
+        return 'Fizz'
+    elif i % 5 == 0:
+        return 'Buzz'
 
 
 if __name__ == "__main__":
-  for i in range(1, 101):
-    s = fizzBuzz(i)
-    print(s)
+    for i in range(1, 101):
+        s = fizzBuzz(i)
+        print(s)
